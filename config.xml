@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-    <widget xmlns = "http://www.w3.org/ns/widgets"
+<widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.statesongs.ccc"
+        id        = "edu.cascadia.statetuned"
         versionCode="1" 
         version   = "1.0.0">    
 
-    <gap:plugin name="BarcodeScanner" /> <!-- latest release -->
-    <!--gap:plugin name="ChildBrowser" /> <!-- latest release -->
-
-    <!-- versionCode is optional and Android only -->
-
+    <gap:plugin name="BarcodeScanner" />
     
-    <name>State Tuned: Pre-release</name>
+    <name>State Tuned</name>
 
     <description>
-        Mapping State Songs Project, 2013, Cascadia Community College
+        Integrated Learning Project, 2013, Cascadia Community College
     </description>
 
-    <author href="http://cascadia.edu" email="brianb@cascadia.edu">
+    <author href="http://statetuned.cascadia.edu" email="brianb@cascadia.edu">
         BIT 271 Class - Spring 2013 - Cascadia Community College
     </author>
     
@@ -26,7 +22,7 @@
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-maxSdkVersion" value="17" />
     <preference name="load-url-timeout" value="30000" />
-    <!--preference name="orientation" value="portrait" /-->
+
     <!-- Icon Info -->
     <icon src="icons/icon.png" />
     
@@ -38,6 +34,5 @@
     <icon src="icons/ldpi.png" gap:platform="android" gap:density="ldpi" />
     <icon src="icons/mdpi.png" gap:platform="android" gap:density="mdpi" />
     <icon src="icons/hdpi.png" gap:platform="android" gap:density="hdpi" />
-    <icon src="icons/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
-    
+    <icon src="icons/xhdpi.png" gap:platform="android" gap:density="xhdpi" />    
 </widget>
